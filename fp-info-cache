@@ -1,4 +1,4 @@
-25207344136921194
+25224460598229667
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61754,7 +61754,35 @@ SR_PASSIVES_R16148
 3
 3
 Koszalix_Relays
+HE721A050
+
+
+0
+8
+8
+Koszalix_Relays
 RM84
+
+
+0
+8
+8
+Koszalix_Relays
+RM85
+
+
+0
+8
+8
+Koszalix_Relays
+RM85_Socket
+
+
+0
+8
+8
+Koszalix_Relays
+Socket_EC50
 
 
 0
@@ -61782,12 +61810,26 @@ LC1258EENP
 5
 5
 Koszalix_Switches
+LC2255EENP
+
+
+0
+8
+7
+Koszalix_Switches
 TE- 1825910-6
 
 
 0
 4
 4
+Koszalix_Symbols
+Attention
+
+
+0
+0
+0
 Koszalix_Transformers
 CSE184L
 
@@ -70587,6 +70629,34 @@ https://www.addicore.com/Pro-Mini-p/ad249.htm
 0
 29
 29
+PCM_kikit
+Board
+Mark board for extraction
+
+0
+0
+0
+PCM_kikit
+Fiducial
+Circular Fiducial
+fiducial
+0
+1
+0
+PCM_kikit
+NPTH
+
+
+0
+0
+0
+PCM_kikit
+Tab
+A symbol representing annotation for tab placement
+
+0
+0
+0
 PCM_kimesh_anchors_1wire
 MeshAnchor_1W_T0.100mm_S0.100mm
 KiMesh mesh anchor footprint, 1 wires, 0.100 mm trace width, 0.100 mm clearance
