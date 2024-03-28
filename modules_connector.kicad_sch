@@ -2805,6 +2805,28 @@
 		)
 		(uuid "fdb0f588-df85-44a0-8449-7aeba03a9a28")
 	)
+	(label "Probe_L"
+		(at 255.905 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5abfe081-a207-464b-81b8-49d405702346")
+	)
+	(label "Probe_H"
+		(at 255.905 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b57f8db-2302-4c9b-9959-8d633a7c9997")
+	)
 	(hierarchical_label "OUT.V"
 		(shape output)
 		(at 143.51 26.67 0)
