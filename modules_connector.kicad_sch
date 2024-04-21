@@ -370,6 +370,183 @@
 				)
 			)
 		)
+		(symbol "Koszalix_Capacitors_Ceramic_Walsin_0603:CAP_100n_X7R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100n"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/e45476bf270793f696988c4e93ce1237/ASC_General_Purpose.pdf"
+				(at 8.89 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Walsin"
+				(at 8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603B104K500CT"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 8.89 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Rated voltage" "50V"
+				(at 8.89 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Operating temperature" "-55°C to +125°C "
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitance characteristic" "±15%"
+				(at 8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_100n_X7R_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_100n_X7R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Koszalix_PWR_Symbols:VCC2"
 			(power)
 			(exclude_from_sim no)
@@ -1934,110 +2111,110 @@
 		)
 	)
 	(junction
-		(at 187.325 78.74)
+		(at 151.13 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04e289df-404e-415d-a341-76b0ffdc3f24")
 	)
 	(junction
-		(at 125.73 99.695)
+		(at 81.915 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12688758-9099-4d96-bea2-9551b5c8a679")
 	)
 	(junction
-		(at 106.68 26.67)
+		(at 62.865 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cf1de38-aabf-4049-bf46-aee88415909e")
 	)
 	(junction
-		(at 83.82 99.695)
+		(at 40.005 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dfea413-fa9e-461b-a695-58c26a99605f")
 	)
 	(junction
-		(at 83.82 68.58)
+		(at 40.005 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30940d0e-0bbd-469a-add8-f9667ee50983")
 	)
 	(junction
-		(at 239.395 67.31)
+		(at 187.96 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40eff4fe-e295-42d3-b2fd-09c54f1d772d")
 	)
 	(junction
-		(at 76.2 31.75)
+		(at 32.385 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a3add0e-292f-4bfd-a14b-f7f140f6b39c")
 	)
 	(junction
-		(at 83.185 26.67)
+		(at 39.37 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88725ca0-46dc-4f42-9b6e-66b794638a7a")
 	)
 	(junction
-		(at 125.095 26.67)
+		(at 81.28 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c05af61-9118-4bd4-b8b7-35a722f0f598")
 	)
 	(junction
-		(at 76.835 73.66)
+		(at 33.02 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f541338-19de-44f3-88e2-9af5bcf451f6")
 	)
 	(junction
-		(at 107.315 99.695)
+		(at 63.5 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ff33149-0ea5-48aa-b844-4241adee1429")
 	)
 	(junction
-		(at 125.73 68.58)
+		(at 81.915 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2f80f8f-a8dc-43ff-840c-d3387dc5b327")
 	)
 	(junction
-		(at 161.29 68.58)
+		(at 117.475 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b045eb02-e6e0-4647-8d2b-c5bf3ec440d4")
 	)
 	(junction
-		(at 76.835 104.775)
+		(at 33.02 107.315)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b98c02e8-fc34-4262-8704-5f58664d9f64")
 	)
 	(junction
-		(at 107.315 68.58)
+		(at 63.5 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5d9ca9d-d866-427a-ab3d-9effe5481457")
 	)
 	(junction
-		(at 187.325 67.31)
+		(at 151.13 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec18a9f8-2703-4e3d-b5be-f593f8c985bc")
 	)
 	(junction
-		(at 239.395 78.74)
+		(at 187.96 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0a0837b-69b5-4083-8143-807e7b9e451a")
 	)
 	(wire
 		(pts
-			(xy 125.73 115.57) (xy 125.73 111.125)
+			(xy 81.915 118.11) (xy 81.915 113.665)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 103.505) (xy 125.73 99.695)
+			(xy 81.915 106.045) (xy 81.915 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 93.98) (xy 254.635 93.98)
+			(xy 175.895 96.52) (xy 165.735 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2067,17 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 101.6) (xy 204.47 93.345)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a64f97d-9946-41ea-ad65-708206a39fc9")
-	)
-	(wire
-		(pts
-			(xy 125.73 99.695) (xy 144.145 99.695)
+			(xy 81.915 102.235) (xy 100.33 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 26.67) (xy 111.125 26.67)
+			(xy 62.865 29.21) (xy 67.31 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 104.775) (xy 239.395 99.06)
+			(xy 187.96 64.77) (xy 187.96 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2274,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 68.58) (xy 83.82 68.58)
+			(xy 210.82 58.42) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aef137e-22aa-4841-baf9-bb61d0146df1")
+	)
+	(wire
+		(pts
+			(xy 31.115 71.12) (xy 40.005 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 30.48) (xy 125.095 26.67)
+			(xy 81.28 33.02) (xy 81.28 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 64.135) (xy 187.325 67.31)
+			(xy 151.13 29.845) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 42.545) (xy 83.185 38.1)
+			(xy 39.37 45.085) (xy 39.37 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 99.695) (xy 83.82 99.695)
+			(xy 31.115 102.235) (xy 40.005 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 78.74) (xy 239.395 80.01)
+			(xy 187.96 43.18) (xy 187.96 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2167,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 144.145 68.58)
+			(xy 81.915 71.12) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 77.47) (xy 239.395 78.74)
+			(xy 187.96 41.91) (xy 187.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 68.58) (xy 107.315 72.39)
+			(xy 63.5 71.12) (xy 63.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 26.67) (xy 106.68 30.48)
+			(xy 62.865 29.21) (xy 62.865 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2207,17 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 99.06) (xy 267.97 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "419ac3de-9553-4a30-b3f1-206fa14b44b0")
-	)
-	(wire
-		(pts
-			(xy 239.395 87.63) (xy 239.395 88.9)
+			(xy 187.96 52.07) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 78.74) (xy 187.325 79.375)
+			(xy 151.13 44.45) (xy 151.13 45.085)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 99.695) (xy 107.315 99.695)
+			(xy 40.005 102.235) (xy 63.5 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2247,17 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.285 96.52) (xy 248.285 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da084b0-7ecd-4827-8a58-c2d7a8caea78")
-	)
-	(wire
-		(pts
-			(xy 159.385 99.695) (xy 161.29 99.695)
+			(xy 115.57 102.235) (xy 117.475 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 71.12) (xy 74.93 71.12)
+			(xy 33.02 73.66) (xy 31.115 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 125.73 68.58)
+			(xy 81.915 74.93) (xy 81.915 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2444,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 104.775) (xy 76.835 115.57)
+			(xy 172.72 93.98) (xy 175.895 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576c2e1e-2aa2-4052-9110-5170276c66b6")
+	)
+	(wire
+		(pts
+			(xy 33.02 107.315) (xy 33.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 26.67) (xy 106.68 26.67)
+			(xy 39.37 29.21) (xy 62.865 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +2474,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 84.455) (xy 125.73 80.01)
+			(xy 172.72 92.71) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633ffca8-04ad-4a81-b3e9-8ccacd7e0ce6")
+	)
+	(wire
+		(pts
+			(xy 81.915 86.995) (xy 81.915 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 67.31) (xy 259.08 67.31)
+			(xy 187.96 31.75) (xy 207.645 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 26.67) (xy 143.51 26.67)
+			(xy 81.28 29.21) (xy 99.695 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 119.38 68.58)
+			(xy 81.915 71.12) (xy 75.565 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 96.52) (xy 248.285 96.52)
+			(xy 175.895 99.06) (xy 165.735 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 78.74) (xy 259.08 77.47)
+			(xy 207.645 43.18) (xy 207.645 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.735 68.58) (xy 161.29 68.58)
+			(xy 121.92 71.12) (xy 117.475 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 76.2 42.545)
+			(xy 32.385 34.29) (xy 32.385 45.085)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 78.74) (xy 207.01 78.74)
+			(xy 151.13 44.45) (xy 170.815 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 86.995) (xy 187.325 88.265)
+			(xy 151.13 52.705) (xy 151.13 53.975)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 67.31) (xy 207.01 67.31)
+			(xy 151.13 33.02) (xy 170.815 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 99.695) (xy 111.76 99.695)
+			(xy 63.5 102.235) (xy 67.945 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 159.385 68.58)
+			(xy 117.475 71.12) (xy 115.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 104.775) (xy 76.835 104.775)
+			(xy 31.115 107.315) (xy 33.02 107.315)
 		)
 		(stroke
 			(width 0)
@@ -2447,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 26.67) (xy 118.745 26.67)
+			(xy 81.28 29.21) (xy 74.93 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.695) (xy 119.38 99.695)
+			(xy 81.915 102.235) (xy 75.565 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 42.545) (xy 106.68 38.1)
+			(xy 62.865 45.085) (xy 62.865 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 42.545) (xy 125.095 38.1)
+			(xy 81.28 45.085) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 73.66) (xy 76.835 84.455)
+			(xy 33.02 76.2) (xy 33.02 86.995)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 76.835 73.66)
+			(xy 31.115 76.2) (xy 33.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 68.58) (xy 111.76 68.58)
+			(xy 63.5 71.12) (xy 67.945 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 26.67) (xy 83.185 26.67)
+			(xy 30.48 29.21) (xy 39.37 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 99.695) (xy 83.82 103.505)
+			(xy 40.005 102.235) (xy 40.005 106.045)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 77.47) (xy 187.325 78.74)
+			(xy 151.13 43.18) (xy 151.13 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2547,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 115.57) (xy 83.82 111.125)
+			(xy 40.005 118.11) (xy 40.005 113.665)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 76.2 29.21)
+			(xy 32.385 34.29) (xy 32.385 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2567,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 68.58) (xy 239.395 67.31)
+			(xy 187.96 33.02) (xy 187.96 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2577,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 84.455) (xy 83.82 80.01)
+			(xy 40.005 86.995) (xy 40.005 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2764,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 115.57) (xy 107.315 111.125)
+			(xy 172.72 101.6) (xy 175.895 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86d11c2-4b63-415b-81f6-f41e621918d9")
+	)
+	(wire
+		(pts
+			(xy 63.5 118.11) (xy 63.5 113.665)
 		)
 		(stroke
 			(width 0)
@@ -2597,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 73.66) (xy 76.835 71.12)
+			(xy 33.02 76.2) (xy 33.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2607,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 99.695) (xy 107.315 103.505)
+			(xy 63.5 102.235) (xy 63.5 106.045)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 78.74) (xy 259.08 78.74)
+			(xy 187.96 43.18) (xy 207.645 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 64.135) (xy 239.395 67.31)
+			(xy 187.96 28.575) (xy 187.96 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2637,17 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.285 101.6) (xy 204.47 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1abeed7-f8ba-4b7e-932f-f6fd0a0432f1")
-	)
-	(wire
-		(pts
-			(xy 76.835 104.775) (xy 76.835 102.235)
+			(xy 33.02 107.315) (xy 33.02 104.775)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 93.345) (xy 204.47 93.345)
+			(xy 166.37 59.055) (xy 174.625 59.055)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 83.82 72.39)
+			(xy 40.005 71.12) (xy 40.005 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2677,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 102.235) (xy 74.93 102.235)
+			(xy 33.02 104.775) (xy 31.115 104.775)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 31.75) (xy 76.2 31.75)
+			(xy 30.48 34.29) (xy 32.385 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 67.31) (xy 259.08 69.85)
+			(xy 207.645 31.75) (xy 207.645 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2707,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 29.21) (xy 74.295 29.21)
+			(xy 32.385 31.75) (xy 30.48 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 67.31) (xy 207.01 69.85)
+			(xy 170.815 33.02) (xy 170.815 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2727,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 161.29 99.695)
+			(xy 117.475 71.12) (xy 117.475 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 26.67) (xy 83.185 30.48)
+			(xy 39.37 29.21) (xy 39.37 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2747,17 +2924,17 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 91.44) (xy 267.97 91.44)
+			(xy 172.72 103.505) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f183d53a-3843-4e84-99cb-c97df2a905ac")
+		(uuid "e9c95ae4-a347-492c-bf54-41386484ee6c")
 	)
 	(wire
 		(pts
-			(xy 107.315 84.455) (xy 107.315 80.01)
+			(xy 63.5 86.995) (xy 63.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2767,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 67.31) (xy 187.325 68.58)
+			(xy 151.13 33.02) (xy 151.13 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 78.74) (xy 207.01 77.47)
+			(xy 170.815 44.45) (xy 170.815 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2787,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 107.315 68.58)
+			(xy 40.005 71.12) (xy 63.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 99.06) (xy 187.325 98.425)
+			(xy 151.13 64.77) (xy 151.13 64.135)
 		)
 		(stroke
 			(width 0)
@@ -2806,18 +2983,29 @@
 		(uuid "fdb0f588-df85-44a0-8449-7aeba03a9a28")
 	)
 	(label "Probe_L"
-		(at 255.905 96.52 0)
+		(at 174.625 59.055 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "5abfe081-a207-464b-81b8-49d405702346")
+		(uuid "51bd72bc-2b58-4129-9850-32cdfc732e72")
 	)
 	(label "Probe_H"
-		(at 255.905 93.98 0)
+		(at 210.82 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "597ac04b-271f-44a6-8967-080102100681")
+	)
+	(label "Probe_H"
+		(at 165.735 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2827,9 +3015,20 @@
 		)
 		(uuid "8b57f8db-2302-4c9b-9959-8d633a7c9997")
 	)
+	(label "Probe_L"
+		(at 165.735 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe1e972f-8291-4517-ab52-c75335f309ef")
+	)
 	(hierarchical_label "OUT.V"
 		(shape output)
-		(at 143.51 26.67 0)
+		(at 99.695 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2841,7 +3040,7 @@
 	)
 	(hierarchical_label "OUT.I"
 		(shape output)
-		(at 165.735 68.58 0)
+		(at 121.92 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2853,7 +3052,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Relays:HE721A0500")
-		(at 239.395 68.58 0)
+		(at 187.96 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2862,7 +3061,7 @@
 		(fields_autoplaced yes)
 		(uuid "167e0c4f-0781-4afb-b6a0-c5ddf6baaab9")
 		(property "Reference" "K2"
-			(at 244.475 71.8307 0)
+			(at 193.04 36.2707 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +3070,7 @@
 			)
 		)
 		(property "Value" "HE721A0500"
-			(at 239.395 68.58 0)
+			(at 187.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +3080,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:HE721A050"
-			(at 239.395 68.58 0)
+			(at 187.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +3089,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/687ce3a3ea92fb56a75d889320b4e5cd/Littelfuse_Reed_Relays_HE700.pdf"
-			(at 239.395 68.58 0)
+			(at 187.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +3098,7 @@
 			)
 		)
 		(property "Description" "Reed switch"
-			(at 239.395 68.58 0)
+			(at 187.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +3107,7 @@
 			)
 		)
 		(property "MPN" "HE721A0500"
-			(at 244.475 74.3707 0)
+			(at 193.04 38.8107 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +3116,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 239.395 68.58 0)
+			(at 187.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3159,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 273.05 96.52 0)
+		(at 180.975 99.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2970,7 +3169,7 @@
 		(fields_autoplaced yes)
 		(uuid "19dea250-fc7f-47a3-840b-c48bf9ff875a")
 		(property "Reference" "J9"
-			(at 273.05 85.09 0)
+			(at 180.975 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3177,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 273.05 87.63 0)
+			(at 180.975 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3185,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 273.05 96.52 0)
+			(at 180.975 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 96.52 0)
+			(at 180.975 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3203,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 273.05 96.52 0)
+			(at 180.975 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3234,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC847")
-		(at 241.935 93.98 0)
+		(at 190.5 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3045,7 +3244,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a2ba118-b1dd-4550-bbb6-61fc00e8a689")
 		(property "Reference" "Q2"
-			(at 236.22 92.7099 0)
+			(at 184.785 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3253,7 @@
 			)
 		)
 		(property "Value" "BC847"
-			(at 236.22 95.2499 0)
+			(at 184.785 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3262,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 236.855 95.885 0)
+			(at 185.42 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3273,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 241.935 93.98 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3283,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 241.935 93.98 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3311,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_470R_0603")
-		(at 239.395 83.82 0)
+		(at 187.96 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3121,7 +3320,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f097522-f4b3-4c14-8276-6b65ec93c50b")
 		(property "Reference" "R17"
-			(at 241.3 82.5499 0)
+			(at 189.865 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3329,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 241.3 85.0899 0)
+			(at 189.865 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3338,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.095 82.55 0)
+			(at 200.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3348,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 296.545 82.55 0)
+			(at 245.11 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3358,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 239.395 83.82 0)
+			(at 187.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3367,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 252.095 77.47 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3377,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07470R"
-			(at 252.095 80.01 0)
+			(at 200.66 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3387,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 252.095 90.17 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3397,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 252.095 95.25 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +3407,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 252.095 92.71 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3417,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 252.095 87.63 0)
+			(at 200.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3427,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 252.095 85.09 0)
+			(at 200.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3437,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 241.935 87.63 0)
+			(at 190.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3463,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 76.835 84.455 0)
+		(at 33.02 86.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3273,7 +3472,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fc85a61-8e01-469e-93e5-3ac751e2761c")
 		(property "Reference" "#PWR053"
-			(at 76.835 90.805 0)
+			(at 33.02 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3481,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 76.835 89.535 0)
+			(at 33.02 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.835 84.455 0)
+			(at 33.02 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.835 84.455 0)
+			(at 33.02 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 76.835 84.455 0)
+			(at 33.02 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3529,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 76.835 115.57 0)
+		(at 33.02 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3339,7 +3538,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a8bac74-96ed-441c-a2f9-e7db242f0ac2")
 		(property "Reference" "#PWR058"
-			(at 76.835 121.92 0)
+			(at 33.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3547,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 76.835 120.65 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.835 115.57 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.835 115.57 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3573,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 76.835 115.57 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3595,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 115.57 99.695 90)
+		(at 71.755 102.235 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3405,7 +3604,7 @@
 		(fields_autoplaced yes)
 		(uuid "313f6fb7-ac9b-458c-aa00-3aeee947e747")
 		(property "Reference" "R15"
-			(at 115.57 93.98 90)
+			(at 71.755 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3612,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 115.57 96.52 90)
+			(at 71.755 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +3620,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.3 86.995 0)
+			(at 70.485 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3630,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 114.3 42.545 0)
+			(at 70.485 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3640,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 115.57 99.695 0)
+			(at 71.755 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3649,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 109.22 86.995 0)
+			(at 65.405 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3659,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-070R"
-			(at 111.76 86.995 0)
+			(at 67.945 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3669,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 121.92 86.995 0)
+			(at 78.105 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3679,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 127 86.995 0)
+			(at 83.185 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3689,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 124.46 86.995 0)
+			(at 80.645 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3699,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 119.38 86.995 0)
+			(at 75.565 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3709,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 116.84 86.995 0)
+			(at 73.025 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3719,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 119.38 97.155 0)
+			(at 75.565 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3745,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Varistors:MCVZ0603M180AGT")
-		(at 83.82 103.505 0)
+		(at 40.005 106.045 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3555,7 +3754,7 @@
 		(fields_autoplaced yes)
 		(uuid "33d5d704-1f46-4dfc-92c7-8107061ff448")
 		(property "Reference" "RV6"
-			(at 86.995 106.2382 0)
+			(at 43.18 108.7782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3763,7 @@
 			)
 		)
 		(property "Value" "MCVZ0603M180AGT"
-			(at 83.82 103.505 0)
+			(at 40.005 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3773,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.82 103.505 0)
+			(at 40.005 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3783,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009640460/SCMP-S-A0009640460-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 83.82 103.505 0)
+			(at 40.005 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3793,7 @@
 			)
 		)
 		(property "Description" "Varistor 14V/18V"
-			(at 83.82 103.505 0)
+			(at 40.005 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3803,7 @@
 			)
 		)
 		(property "MPN" "MCVZ0603M180AGT"
-			(at 86.995 108.7782 0)
+			(at 43.18 111.3182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3812,7 @@
 			)
 		)
 		(property "Manufacturer" "MulticompPro"
-			(at 83.82 103.505 0)
+			(at 40.005 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3838,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_470R_0603")
-		(at 187.325 83.185 0)
+		(at 151.13 48.895 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3648,7 +3847,7 @@
 		(fields_autoplaced yes)
 		(uuid "37d7585b-2b53-4841-a918-ce378026a7a4")
 		(property "Reference" "R6"
-			(at 189.23 81.9149 0)
+			(at 153.035 47.6249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3856,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 189.23 84.4549 0)
+			(at 153.035 50.1649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3865,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 200.025 81.915 0)
+			(at 163.83 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3875,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 244.475 81.915 0)
+			(at 208.28 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3885,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 187.325 83.185 0)
+			(at 151.13 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3894,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 200.025 76.835 0)
+			(at 163.83 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3904,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07470R"
-			(at 200.025 79.375 0)
+			(at 163.83 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3914,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 200.025 89.535 0)
+			(at 163.83 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3924,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 200.025 94.615 0)
+			(at 163.83 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3934,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 200.025 92.075 0)
+			(at 163.83 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3944,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 200.025 86.995 0)
+			(at 163.83 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3954,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 200.025 84.455 0)
+			(at 163.83 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3964,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 189.865 86.995 0)
+			(at 153.67 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3990,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_PWR_Symbols:VCC2")
-		(at 187.325 64.135 0)
+		(at 151.13 29.845 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3800,7 +3999,7 @@
 		(fields_autoplaced yes)
 		(uuid "383b03b4-985c-4104-8f3d-7baa7947701d")
 		(property "Reference" "#PWR035"
-			(at 187.579 68.453 0)
+			(at 151.384 34.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +4009,7 @@
 			)
 		)
 		(property "Value" "VCC2"
-			(at 187.325 59.69 0)
+			(at 151.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +4017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.325 64.135 0)
+			(at 151.13 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +4026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.325 64.135 0)
+			(at 151.13 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +4035,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.325 64.135 0)
+			(at 151.13 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +4057,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 125.73 76.2 0)
+		(at 81.915 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3867,7 +4066,7 @@
 		(fields_autoplaced yes)
 		(uuid "3892a15e-4cf1-4230-a894-96dd0d5b6b66")
 		(property "Reference" "R14"
-			(at 128.27 74.9299 0)
+			(at 84.455 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +4075,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 128.27 77.4699 0)
+			(at 84.455 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +4084,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 138.43 74.93 0)
+			(at 94.615 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +4094,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 182.88 74.93 0)
+			(at 139.065 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +4104,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 125.73 76.2 0)
+			(at 81.915 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4113,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 138.43 69.85 0)
+			(at 94.615 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +4123,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710k"
-			(at 138.43 72.39 0)
+			(at 94.615 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4133,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 138.43 82.55 0)
+			(at 94.615 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4143,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 138.43 87.63 0)
+			(at 94.615 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4153,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 138.43 85.09 0)
+			(at 94.615 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +4163,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 138.43 80.01 0)
+			(at 94.615 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4173,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 138.43 77.47 0)
+			(at 94.615 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +4183,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 128.27 80.01 0)
+			(at 84.455 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4209,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 239.395 104.775 0)
+		(at 187.96 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4019,7 +4218,7 @@
 		(fields_autoplaced yes)
 		(uuid "39251ad3-6366-45fa-8e41-7280f69f1493")
 		(property "Reference" "#PWR024"
-			(at 239.395 111.125 0)
+			(at 187.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4227,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 239.395 109.855 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.395 104.775 0)
+			(at 187.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 239.395 104.775 0)
+			(at 187.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 239.395 104.775 0)
+			(at 187.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 106.68 42.545 0)
+		(at 62.865 45.085 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4085,7 +4284,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e8bc4b6-ca24-4df4-94a1-f4d27c22e075")
 		(property "Reference" "#PWR050"
-			(at 106.68 48.895 0)
+			(at 62.865 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4293,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 106.68 47.625 0)
+			(at 62.865 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 42.545 0)
+			(at 62.865 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 42.545 0)
+			(at 62.865 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 106.68 42.545 0)
+			(at 62.865 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4341,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 204.47 73.66 270)
+		(at 168.275 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4151,7 +4350,7 @@
 		(fields_autoplaced yes)
 		(uuid "42df7b2b-e833-4ee9-b1fb-3104b49d961c")
 		(property "Reference" "D7"
-			(at 209.55 72.0724 90)
+			(at 173.355 37.7824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4359,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 209.55 74.6124 90)
+			(at 173.355 40.3224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 210.82 88.9 0)
+			(at 174.625 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4378,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 210.82 88.9 0)
+			(at 174.625 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4388,7 @@
 			)
 		)
 		(property "Description" "Schotky diode"
-			(at 204.47 73.66 0)
+			(at 168.275 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4397,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 210.82 88.9 0)
+			(at 174.625 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4407,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 208.28 90.17 0)
+			(at 172.085 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4417,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 204.47 73.66 0)
+			(at 168.275 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4427,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 208.28 90.17 0)
+			(at 172.085 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4437,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 208.28 90.17 0)
+			(at 172.085 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4447,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 210.82 88.9 0)
+			(at 174.625 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4457,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 204.47 73.66 0)
+			(at 168.275 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4467,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 204.47 73.66 0)
+			(at 168.275 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4477,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 204.47 73.66 0)
+			(at 168.275 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4503,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Varistors:MCVZ0603M180AGT")
-		(at 83.82 72.39 0)
+		(at 40.005 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4313,7 +4512,7 @@
 		(fields_autoplaced yes)
 		(uuid "44bbd83d-9eb3-4368-a250-8c5ec64bbfd1")
 		(property "Reference" "RV5"
-			(at 86.995 75.1232 0)
+			(at 43.18 77.6632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4521,7 @@
 			)
 		)
 		(property "Value" "MCVZ0603M180AGT"
-			(at 83.82 72.39 0)
+			(at 40.005 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4531,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.82 72.39 0)
+			(at 40.005 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4541,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009640460/SCMP-S-A0009640460-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 83.82 72.39 0)
+			(at 40.005 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4551,7 @@
 			)
 		)
 		(property "Description" "Varistor 14V/18V"
-			(at 83.82 72.39 0)
+			(at 40.005 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4561,7 @@
 			)
 		)
 		(property "MPN" "MCVZ0603M180AGT"
-			(at 86.995 77.6632 0)
+			(at 43.18 80.2032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4570,7 @@
 			)
 		)
 		(property "Manufacturer" "MulticompPro"
-			(at 83.82 72.39 0)
+			(at 40.005 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4596,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 256.54 73.66 270)
+		(at 205.105 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4406,7 +4605,7 @@
 		(fields_autoplaced yes)
 		(uuid "44cc78ba-98e7-41b5-ad42-15724553088b")
 		(property "Reference" "D9"
-			(at 261.62 72.0724 90)
+			(at 210.185 36.5124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4614,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 261.62 74.6124 90)
+			(at 210.185 39.0524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4623,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 262.89 88.9 0)
+			(at 211.455 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4633,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 262.89 88.9 0)
+			(at 211.455 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4643,7 @@
 			)
 		)
 		(property "Description" "Schotky diode"
-			(at 256.54 73.66 0)
+			(at 205.105 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4652,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 262.89 88.9 0)
+			(at 211.455 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4662,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 260.35 90.17 0)
+			(at 208.915 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4672,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 256.54 73.66 0)
+			(at 205.105 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4682,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 260.35 90.17 0)
+			(at 208.915 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4692,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 260.35 90.17 0)
+			(at 208.915 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4702,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 262.89 88.9 0)
+			(at 211.455 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4712,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 256.54 73.66 0)
+			(at 205.105 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4722,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 256.54 73.66 0)
+			(at 205.105 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4732,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 256.54 73.66 0)
+			(at 205.105 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,8 +4757,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 154.305 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c3584d4-6259-4272-b3dc-a39ebf4d6873")
+		(property "Reference" "#PWR073"
+			(at 154.305 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 154.305 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.305 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.305 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 154.305 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e61767-7fa1-46e4-a5bd-d96d2fca3adf")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 125.095 34.29 0)
+		(at 81.28 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4568,7 +4833,7 @@
 		(fields_autoplaced yes)
 		(uuid "57275937-f416-469e-ae41-c4eaab04f487")
 		(property "Reference" "R12"
-			(at 127.635 33.0199 0)
+			(at 83.82 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4842,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 127.635 35.5599 0)
+			(at 83.82 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4851,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.795 33.02 0)
+			(at 93.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4861,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 182.245 33.02 0)
+			(at 138.43 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4871,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 125.095 34.29 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4880,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 137.795 27.94 0)
+			(at 93.98 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4890,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710k"
-			(at 137.795 30.48 0)
+			(at 93.98 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +4900,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 137.795 40.64 0)
+			(at 93.98 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4910,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 137.795 45.72 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4920,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 137.795 43.18 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4930,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 137.795 38.1 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4940,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 137.795 35.56 0)
+			(at 93.98 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4950,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 127.635 38.1 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4976,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TVS:ESD3B15WS")
-		(at 109.855 77.47 90)
+		(at 66.04 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4720,7 +4985,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bdfec2f-2fc3-4f99-86fd-1589f7b6f151")
 		(property "Reference" "D8"
-			(at 109.855 74.9299 90)
+			(at 66.04 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +4994,7 @@
 			)
 		)
 		(property "Value" "ESD3B15WS"
-			(at 109.855 77.4699 90)
+			(at 66.04 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +5003,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 109.855 77.47 0)
+			(at 66.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +5012,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/88a52fd2eb5b4d5ee459bc1d3a0ee07e/esd3b5v0ws.pdf"
-			(at 109.855 77.47 0)
+			(at 66.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +5021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.855 77.47 0)
+			(at 66.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +5046,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Varistors:MCVZ0603M180AGT")
-		(at 83.185 30.48 0)
+		(at 39.37 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4790,7 +5055,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c43725c-859c-4639-8e5d-3d15a33587aa")
 		(property "Reference" "RV4"
-			(at 86.36 33.2132 0)
+			(at 42.545 35.7532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +5064,7 @@
 			)
 		)
 		(property "Value" "MCVZ0603M180AGT"
-			(at 83.185 30.48 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +5074,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.185 30.48 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +5084,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009640460/SCMP-S-A0009640460-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 83.185 30.48 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5094,7 @@
 			)
 		)
 		(property "Description" "Varistor 14V/18V"
-			(at 83.185 30.48 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +5104,7 @@
 			)
 		)
 		(property "MPN" "MCVZ0603M180AGT"
-			(at 86.36 35.7532 0)
+			(at 42.545 38.2932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +5113,7 @@
 			)
 		)
 		(property "Manufacturer" "MulticompPro"
-			(at 83.185 30.48 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +5139,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 107.315 84.455 0)
+		(at 63.5 86.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4883,7 +5148,7 @@
 		(fields_autoplaced yes)
 		(uuid "6303981f-ebaf-44de-bbdb-b4483cc999c2")
 		(property "Reference" "#PWR055"
-			(at 107.315 90.805 0)
+			(at 63.5 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +5157,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 107.315 89.535 0)
+			(at 63.5 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +5165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.315 84.455 0)
+			(at 63.5 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +5174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.315 84.455 0)
+			(at 63.5 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +5183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 107.315 84.455 0)
+			(at 63.5 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,8 +5204,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Koszalix_Capacitors_Ceramic_Walsin_0603:CAP_100n_X7R")
+		(at 154.305 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69c8465f-1593-4ef8-a1e4-c0e0747ebacc")
+		(property "Reference" "C17"
+			(at 158.115 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 158.115 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 163.195 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/e45476bf270793f696988c4e93ce1237/ASC_General_Purpose.pdf"
+			(at 163.195 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Capacitor"
+			(at 154.305 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 163.195 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603B104K500CT"
+			(at 163.195 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 163.195 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rated voltage" "50V"
+			(at 163.195 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Operating temperature" "-55°C to +125°C "
+			(at 163.195 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitance characteristic" "±15%"
+			(at 163.195 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c133e9-8b21-41bc-ad2f-7835ad9b633e")
+		)
+		(pin "2"
+			(uuid "5950d27c-392c-453f-a1f6-1a9f455fbbc4")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 198.755 93.345 90)
+		(at 162.56 59.055 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4949,7 +5346,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aa54983-2617-4fad-9ebd-3e2c64fd7b81")
 		(property "Reference" "R5"
-			(at 198.755 87.63 90)
+			(at 162.56 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +5354,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 198.755 90.17 90)
+			(at 162.56 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5362,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 197.485 80.645 0)
+			(at 161.29 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5372,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 197.485 36.195 0)
+			(at 161.29 1.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5382,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 198.755 93.345 0)
+			(at 162.56 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5391,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 192.405 80.645 0)
+			(at 156.21 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5401,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710k"
-			(at 194.945 80.645 0)
+			(at 158.75 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5411,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 205.105 80.645 0)
+			(at 168.91 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5421,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 210.185 80.645 0)
+			(at 173.99 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5431,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 207.645 80.645 0)
+			(at 171.45 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5441,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 202.565 80.645 0)
+			(at 166.37 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5451,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 200.025 80.645 0)
+			(at 163.83 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5461,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 202.565 90.805 0)
+			(at 166.37 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5487,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Relays:HE721A0500")
-		(at 187.325 68.58 0)
+		(at 151.13 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5099,7 +5496,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c09aa3d-7257-4f88-98e8-0d0a37bd87a4")
 		(property "Reference" "K1"
-			(at 192.405 71.8307 0)
+			(at 156.21 37.5407 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5505,7 @@
 			)
 		)
 		(property "Value" "HE721A0500"
-			(at 187.325 68.58 0)
+			(at 151.13 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5515,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:HE721A050"
-			(at 187.325 68.58 0)
+			(at 151.13 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5524,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/687ce3a3ea92fb56a75d889320b4e5cd/Littelfuse_Reed_Relays_HE700.pdf"
-			(at 187.325 68.58 0)
+			(at 151.13 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5533,7 @@
 			)
 		)
 		(property "Description" "Reed switch"
-			(at 187.325 68.58 0)
+			(at 151.13 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5542,7 @@
 			)
 		)
 		(property "MPN" "HE721A0500"
-			(at 192.405 74.3707 0)
+			(at 156.21 40.0807 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5551,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 187.325 68.58 0)
+			(at 151.13 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5594,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 125.73 84.455 0)
+		(at 81.915 86.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5206,7 +5603,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f123acf-9e90-471d-bd02-f960cf021137")
 		(property "Reference" "#PWR056"
-			(at 125.73 90.805 0)
+			(at 81.915 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5612,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 125.73 89.535 0)
+			(at 81.915 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 84.455 0)
+			(at 81.915 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 84.455 0)
+			(at 81.915 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 125.73 84.455 0)
+			(at 81.915 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5660,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 125.73 115.57 0)
+		(at 81.915 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5272,7 +5669,7 @@
 		(fields_autoplaced yes)
 		(uuid "71f182b4-ae10-4985-8fc4-f3f3bf092d22")
 		(property "Reference" "#PWR061"
-			(at 125.73 121.92 0)
+			(at 81.915 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5678,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 125.73 120.65 0)
+			(at 81.915 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 115.57 0)
+			(at 81.915 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 115.57 0)
+			(at 81.915 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 125.73 115.57 0)
+			(at 81.915 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5726,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_PWR_Symbols:VCC2")
-		(at 239.395 64.135 0)
+		(at 187.96 28.575 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5338,7 +5735,7 @@
 		(fields_autoplaced yes)
 		(uuid "75b01eb3-066b-47b0-96b3-ad3b40efe8b1")
 		(property "Reference" "#PWR036"
-			(at 239.649 68.453 0)
+			(at 188.214 32.893 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5745,7 @@
 			)
 		)
 		(property "Value" "VCC2"
-			(at 239.395 59.69 0)
+			(at 187.96 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.395 64.135 0)
+			(at 187.96 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 239.395 64.135 0)
+			(at 187.96 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 239.395 64.135 0)
+			(at 187.96 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5793,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 107.315 115.57 0)
+		(at 63.5 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5405,7 +5802,7 @@
 		(fields_autoplaced yes)
 		(uuid "76d1d4c1-a6c9-4f1b-9af3-79d6c599d34d")
 		(property "Reference" "#PWR060"
-			(at 107.315 121.92 0)
+			(at 63.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5811,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 107.315 120.65 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.315 115.57 0)
+			(at 63.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.315 115.57 0)
+			(at 63.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 107.315 115.57 0)
+			(at 63.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5859,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 76.2 42.545 0)
+		(at 32.385 45.085 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5471,7 +5868,7 @@
 		(fields_autoplaced yes)
 		(uuid "841e69f6-575d-48a3-809d-338bc9d9204a")
 		(property "Reference" "#PWR048"
-			(at 76.2 48.895 0)
+			(at 32.385 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5877,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 76.2 47.625 0)
+			(at 32.385 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 42.545 0)
+			(at 32.385 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 42.545 0)
+			(at 32.385 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 76.2 42.545 0)
+			(at 32.385 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5925,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 114.935 26.67 90)
+		(at 71.12 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5537,7 +5934,7 @@
 		(fields_autoplaced yes)
 		(uuid "86238b0d-12d1-4455-a100-7c49b972ae2f")
 		(property "Reference" "R11"
-			(at 114.935 20.955 90)
+			(at 71.12 23.495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5942,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 114.935 23.495 90)
+			(at 71.12 26.035 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5950,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.665 13.97 0)
+			(at 69.85 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 113.665 -30.48 0)
+			(at 69.85 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5970,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 114.935 26.67 0)
+			(at 71.12 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5979,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 108.585 13.97 0)
+			(at 64.77 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5989,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-070R"
-			(at 111.125 13.97 0)
+			(at 67.31 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5999,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 121.285 13.97 0)
+			(at 77.47 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +6009,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 126.365 13.97 0)
+			(at 82.55 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +6019,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 123.825 13.97 0)
+			(at 80.01 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +6029,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 118.745 13.97 0)
+			(at 74.93 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +6039,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 116.205 13.97 0)
+			(at 72.39 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +6049,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 118.745 24.13 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +6075,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 69.215 29.21 180)
+		(at 25.4 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5687,7 +6084,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ebac131-f70a-4dc9-a761-db79bf4e6df4")
 		(property "Reference" "J3"
-			(at 69.215 20.955 0)
+			(at 25.4 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +6092,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 69.215 23.495 0)
+			(at 25.4 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +6100,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
-			(at 69.215 29.21 0)
+			(at 25.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +6109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.215 29.21 0)
+			(at 25.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +6118,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.215 29.21 0)
+			(at 25.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +6146,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 250.825 93.98 90)
+		(at 199.39 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5758,7 +6155,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0ef0f5e-ef19-4a8f-9647-e59eb4bfef5a")
 		(property "Reference" "R25"
-			(at 250.825 88.265 90)
+			(at 199.39 52.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +6163,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 250.825 90.805 90)
+			(at 199.39 55.245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +6171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 249.555 81.28 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +6181,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 249.555 36.83 0)
+			(at 198.12 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +6191,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 250.825 93.98 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +6200,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 244.475 81.28 0)
+			(at 193.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +6210,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710k"
-			(at 247.015 81.28 0)
+			(at 195.58 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +6220,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 257.175 81.28 0)
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +6230,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 262.255 81.28 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +6240,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 259.715 81.28 0)
+			(at 208.28 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +6250,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 254.635 81.28 0)
+			(at 203.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +6260,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 252.095 81.28 0)
+			(at 200.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +6270,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 254.635 91.44 0)
+			(at 203.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +6296,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 83.82 115.57 0)
+		(at 40.005 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5908,7 +6305,7 @@
 		(fields_autoplaced yes)
 		(uuid "a165a7c0-5f48-4f84-ac1f-0d3dadf11733")
 		(property "Reference" "#PWR059"
-			(at 83.82 121.92 0)
+			(at 40.005 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +6314,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 83.82 120.65 0)
+			(at 40.005 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +6322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 115.57 0)
+			(at 40.005 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +6331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 115.57 0)
+			(at 40.005 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 83.82 115.57 0)
+			(at 40.005 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +6362,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TVS:ESD3B15WS")
-		(at 109.855 108.585 90)
+		(at 66.04 111.125 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5974,7 +6371,7 @@
 		(fields_autoplaced yes)
 		(uuid "a202de27-921e-4430-98e1-2e6cc5750451")
 		(property "Reference" "D10"
-			(at 109.855 106.0449 90)
+			(at 66.04 108.5849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6380,7 @@
 			)
 		)
 		(property "Value" "ESD3B15WS"
-			(at 109.855 108.5849 90)
+			(at 66.04 111.1249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +6389,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 109.855 108.585 0)
+			(at 66.04 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/88a52fd2eb5b4d5ee459bc1d3a0ee07e/esd3b5v0ws.pdf"
-			(at 109.855 108.585 0)
+			(at 66.04 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.855 108.585 0)
+			(at 66.04 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6432,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 125.73 107.315 0)
+		(at 81.915 109.855 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6044,7 +6441,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4701499-98d7-47c9-aeec-ff19cdbd06b9")
 		(property "Reference" "R16"
-			(at 128.27 106.0449 0)
+			(at 84.455 108.5849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6450,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 128.27 108.5849 0)
+			(at 84.455 111.1249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6459,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 138.43 106.045 0)
+			(at 94.615 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6469,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 182.88 106.045 0)
+			(at 139.065 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6479,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 125.73 107.315 0)
+			(at 81.915 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6488,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 138.43 100.965 0)
+			(at 94.615 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6498,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710k"
-			(at 138.43 103.505 0)
+			(at 94.615 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6508,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 138.43 113.665 0)
+			(at 94.615 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6518,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 138.43 118.745 0)
+			(at 94.615 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6528,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 138.43 116.205 0)
+			(at 94.615 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6538,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 138.43 111.125 0)
+			(at 94.615 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6548,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 138.43 108.585 0)
+			(at 94.615 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6558,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 128.27 111.125 0)
+			(at 84.455 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 125.095 42.545 0)
+		(at 81.28 45.085 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6196,7 +6593,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc035499-9345-43df-a54d-0c7e1b753866")
 		(property "Reference" "#PWR051"
-			(at 125.095 48.895 0)
+			(at 81.28 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6602,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 125.095 47.625 0)
+			(at 81.28 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.095 42.545 0)
+			(at 81.28 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 42.545 0)
+			(at 81.28 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +6628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 125.095 42.545 0)
+			(at 81.28 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,8 +6649,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Koszalix_PWR_Symbols:VCC2")
+		(at 154.305 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe47e02-d381-4ddf-9ea3-a80584b12af1")
+		(property "Reference" "#PWR038"
+			(at 154.559 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2"
+			(at 154.305 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.305 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.305 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "234eb05d-3a5f-4c55-998e-57b885cc4556")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Relays:HE721A0500")
-		(at 159.385 68.58 270)
+		(at 115.57 71.12 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6262,7 +6726,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce4a7089-52d2-4c10-a5bd-7914052ecc8b")
 		(property "Reference" "K1"
-			(at 151.765 61.595 90)
+			(at 107.95 64.135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +6734,7 @@
 			)
 		)
 		(property "Value" "HE721A0500"
-			(at 159.385 68.58 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6744,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:HE721A050"
-			(at 159.385 68.58 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +6753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/687ce3a3ea92fb56a75d889320b4e5cd/Littelfuse_Reed_Relays_HE700.pdf"
-			(at 159.385 68.58 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6762,7 @@
 			)
 		)
 		(property "Description" "Reed switch"
-			(at 159.385 68.58 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6771,7 @@
 			)
 		)
 		(property "MPN" "HE721A0500"
-			(at 151.765 64.135 90)
+			(at 107.95 66.675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +6779,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 159.385 68.58 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +6822,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 187.325 99.06 0)
+		(at 151.13 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6367,7 +6831,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3767d43-ae27-4d55-8977-d3db78365e4e")
 		(property "Reference" "#PWR052"
-			(at 187.325 105.41 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +6840,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 187.325 104.14 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.325 99.06 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.325 99.06 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 187.325 99.06 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6888,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 83.185 42.545 0)
+		(at 39.37 45.085 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6433,7 +6897,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4842072-e3fa-4f02-a2a8-c27cc790d794")
 		(property "Reference" "#PWR049"
-			(at 83.185 48.895 0)
+			(at 39.37 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6906,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 83.185 47.625 0)
+			(at 39.37 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.185 42.545 0)
+			(at 39.37 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.185 42.545 0)
+			(at 39.37 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 83.185 42.545 0)
+			(at 39.37 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,7 +6954,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_PWR_Symbols:VCC2")
-		(at 264.16 91.44 90)
+		(at 172.72 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6499,7 +6963,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd869cb9-fe35-4712-886f-a448d9c62f3f")
 		(property "Reference" "#PWR064"
-			(at 268.478 91.186 0)
+			(at 172.974 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,16 +6973,15 @@
 			)
 		)
 		(property "Value" "VCC2"
-			(at 260.35 91.4399 90)
+			(at 172.72 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 91.44 0)
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 91.44 0)
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 91.44 0)
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +7021,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 115.57 68.58 90)
+		(at 71.755 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6567,7 +7030,7 @@
 		(fields_autoplaced yes)
 		(uuid "dec2b0c7-06d9-477a-a20e-d7dc3d6adc29")
 		(property "Reference" "R13"
-			(at 115.57 62.865 90)
+			(at 71.755 65.405 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +7038,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 115.57 65.405 90)
+			(at 71.755 67.945 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +7046,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.3 55.88 0)
+			(at 70.485 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +7056,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 114.3 11.43 0)
+			(at 70.485 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +7066,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor"
-			(at 115.57 68.58 0)
+			(at 71.755 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +7075,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 109.22 55.88 0)
+			(at 65.405 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +7085,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-070R"
-			(at 111.76 55.88 0)
+			(at 67.945 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +7095,7 @@
 			)
 		)
 		(property "Maximum Working Voltage " "50 V"
-			(at 121.92 55.88 0)
+			(at 78.105 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +7105,7 @@
 			)
 		)
 		(property "Maximum Overload Voltage" "100 V"
-			(at 127 55.88 0)
+			(at 83.185 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +7115,7 @@
 			)
 		)
 		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 124.46 55.88 0)
+			(at 80.645 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +7125,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200ppm"
-			(at 119.38 55.88 0)
+			(at 75.565 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +7135,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 116.84 55.88 0)
+			(at 73.025 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +7145,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 119.38 66.04 0)
+			(at 75.565 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +7171,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 69.85 71.12 180)
+		(at 26.035 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6717,7 +7180,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfd84044-fa25-47f3-91e4-c412201cc719")
 		(property "Reference" "J4"
-			(at 69.85 62.865 0)
+			(at 26.035 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +7188,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 69.85 65.405 0)
+			(at 26.035 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +7196,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
-			(at 69.85 71.12 0)
+			(at 26.035 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +7205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 71.12 0)
+			(at 26.035 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +7214,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 71.12 0)
+			(at 26.035 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +7242,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 264.16 99.06 270)
+		(at 172.72 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6788,7 +7251,7 @@
 		(fields_autoplaced yes)
 		(uuid "f01e29d4-9faa-4ece-8bda-4e8188591092")
 		(property "Reference" "#PWR025"
-			(at 257.81 99.06 0)
+			(at 172.72 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,16 +7260,15 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 260.35 99.0599 90)
+			(at 172.72 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 99.06 0)
+			(at 172.72 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +7277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 99.06 0)
+			(at 172.72 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +7286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 264.16 99.06 0)
+			(at 172.72 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +7308,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TVS:ESD3B15WS")
-		(at 109.22 35.56 90)
+		(at 65.405 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6855,7 +7317,7 @@
 		(fields_autoplaced yes)
 		(uuid "f025d77d-c2a4-49ec-a0bc-60be4a29486a")
 		(property "Reference" "D6"
-			(at 109.22 33.0199 90)
+			(at 65.405 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +7326,7 @@
 			)
 		)
 		(property "Value" "ESD3B15WS"
-			(at 109.22 35.5599 90)
+			(at 65.405 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +7335,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 109.22 35.56 0)
+			(at 65.405 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +7344,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/88a52fd2eb5b4d5ee459bc1d3a0ee07e/esd3b5v0ws.pdf"
-			(at 109.22 35.56 0)
+			(at 65.405 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +7353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 35.56 0)
+			(at 65.405 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +7378,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Relays:HE721A0500")
-		(at 159.385 99.695 270)
+		(at 115.57 102.235 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6925,7 +7387,7 @@
 		(fields_autoplaced yes)
 		(uuid "f191d750-4fed-4a97-b404-75530147a299")
 		(property "Reference" "K2"
-			(at 151.765 92.71 90)
+			(at 107.95 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7395,7 @@
 			)
 		)
 		(property "Value" "HE721A0500"
-			(at 159.385 99.695 0)
+			(at 115.57 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +7405,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:HE721A050"
-			(at 159.385 99.695 0)
+			(at 115.57 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +7414,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/687ce3a3ea92fb56a75d889320b4e5cd/Littelfuse_Reed_Relays_HE700.pdf"
-			(at 159.385 99.695 0)
+			(at 115.57 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +7423,7 @@
 			)
 		)
 		(property "Description" "Reed switch"
-			(at 159.385 99.695 0)
+			(at 115.57 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +7432,7 @@
 			)
 		)
 		(property "MPN" "HE721A0500"
-			(at 151.765 95.25 90)
+			(at 107.95 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7440,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 159.385 99.695 0)
+			(at 115.57 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +7483,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 83.82 84.455 0)
+		(at 40.005 86.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7030,7 +7492,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3b908e2-ce20-4b7d-a24c-530928ac4a08")
 		(property "Reference" "#PWR054"
-			(at 83.82 90.805 0)
+			(at 40.005 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,7 +7501,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 83.82 89.535 0)
+			(at 40.005 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,7 +7509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 84.455 0)
+			(at 40.005 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 84.455 0)
+			(at 40.005 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,7 +7527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 83.82 84.455 0)
+			(at 40.005 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7549,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 69.85 102.235 180)
+		(at 26.035 104.775 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7096,7 +7558,7 @@
 		(fields_autoplaced yes)
 		(uuid "f79351c2-1e06-44e7-ac3f-0c7a1d0bee0d")
 		(property "Reference" "J5"
-			(at 69.85 93.98 0)
+			(at 26.035 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7566,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 69.85 96.52 0)
+			(at 26.035 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7574,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
-			(at 69.85 102.235 0)
+			(at 26.035 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 102.235 0)
+			(at 26.035 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7592,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 102.235 0)
+			(at 26.035 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7620,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC847")
-		(at 189.865 93.345 0)
+		(at 153.67 59.055 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7168,7 +7630,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce25e6d-2f68-42ee-83bf-2dd4d05d109d")
 		(property "Reference" "Q1"
-			(at 184.15 92.0749 0)
+			(at 147.955 57.7849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,7 +7639,7 @@
 			)
 		)
 		(property "Value" "BC847"
-			(at 184.15 94.6149 0)
+			(at 147.955 60.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7648,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.785 95.25 0)
+			(at 148.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7659,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 189.865 93.345 0)
+			(at 153.67 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7669,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 189.865 93.345 0)
+			(at 153.67 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)

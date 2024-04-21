@@ -4,12 +4,6 @@
 	(generator_version "8.0")
 	(uuid "d77300f0-a82f-4cf4-a361-683d61137a17")
 	(paper "A4")
-	(title_block
-		(title "lineScope isolators")
-		(date "2024-04-11")
-		(rev "1.0.0")
-		(company "Koszalix")
-	)
 	(lib_symbols)
 	(wire
 		(pts

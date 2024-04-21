@@ -2920,26 +2920,6 @@
 		)
 		(uuid "ff4c2c1d-f682-49f2-a8ed-d7dde8bb4a65")
 	)
-	(text_box "Add 2mm x 9.5mm cutout under U1,U3"
-		(exclude_from_sim no)
-		(at 142.24 73.66 0)
-		(size 22.225 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 176 62 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "cb154a44-0183-4e49-92d4-8e1b4468612f")
-	)
 	(hierarchical_label "IN.V"
 		(shape input)
 		(at 85.725 53.975 180)
