@@ -520,13 +520,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -539,11 +539,131 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": " junction capacitance",
+          "name": " junction capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance characteristic",
+          "name": "Capacitance characteristic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric Withstanding Voltage ",
+          "name": "Dielectric Withstanding Voltage ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Leakage current",
+          "name": "Leakage current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max. average forward current",
+          "name": "Max. average forward current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Overload Voltage",
+          "name": "Maximum Overload Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Working Voltage ",
+          "name": "Maximum Working Voltage ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature Range",
+          "name": "Operating Temperature Range",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating temperature",
+          "name": "Operating temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Peak reverse voltage",
+          "name": "Peak reverse voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power dissipation",
+          "name": "Power dissipation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rated voltage",
+          "name": "Rated voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse recovery time",
+          "name": "Reverse recovery time",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "unction temperature",
+          "name": "unction temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

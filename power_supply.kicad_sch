@@ -1504,6 +1504,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -2517,16 +2599,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 175.26) (xy 38.1 174.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494c8c77-8d3e-4e84-a2d3-511042ef559c")
-	)
-	(wire
-		(pts
 			(xy 77.47 97.79) (xy 86.995 97.79)
 		)
 		(stroke
@@ -2537,16 +2609,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 175.26) (xy 45.72 174.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4bcf41-8407-45c8-a1bf-5b29a6488117")
-	)
-	(wire
-		(pts
 			(xy 29.845 48.26) (xy 34.925 48.26)
 		)
 		(stroke
@@ -2554,16 +2616,6 @@
 			(type default)
 		)
 		(uuid "4fd29c1b-efc2-4286-bbbb-6b16c9d0d294")
-	)
-	(wire
-		(pts
-			(xy 53.34 184.15) (xy 53.34 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50532ba1-3259-4276-a823-1877d051e8f6")
 	)
 	(wire
 		(pts
@@ -2827,16 +2879,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 184.15) (xy 45.72 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7f6dff-d3b7-4ce0-a6fa-5a7343b658e3")
-	)
-	(wire
-		(pts
 			(xy 189.865 50.8) (xy 189.865 53.975)
 		)
 		(stroke
@@ -2927,16 +2969,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 175.26) (xy 53.34 174.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfad9ee7-c466-491b-9987-d72ff869592b")
-	)
-	(wire
-		(pts
 			(xy 168.275 64.135) (xy 168.275 62.865)
 		)
 		(stroke
@@ -3014,16 +3046,6 @@
 			(type default)
 		)
 		(uuid "e296d1fd-dccb-41a0-be0f-629e458063ed")
-	)
-	(wire
-		(pts
-			(xy 38.1 184.15) (xy 38.1 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e296f392-fe12-480a-bc1c-5b2a9ed50c91")
 	)
 	(wire
 		(pts
@@ -3579,73 +3601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 53.34 172.085 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d9657db-993b-44f4-a41a-a52a399288b9")
-		(property "Reference" "H4"
-			(at 55.88 169.5449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 55.88 172.0849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 53.34 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 53.34 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3021d006-dd75-4045-8f98-a3395cc732fc")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Koszalix_Capacitors_Ceramic_Walsin_0603:CAP_100n_X7R")
 		(at 189.865 59.69 0)
 		(unit 1)
@@ -4075,158 +4030,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_4k7_0603")
-		(at 53.34 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29c28cc5-4787-4b4a-a0e3-9f9c1623ced0")
-		(property "Reference" "R24"
-			(at 55.88 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 55.88 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 110.49 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor"
-			(at 53.34 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-070R"
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Working Voltage " "50 V"
-			(at 66.04 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Overload Voltage" "100 V"
-			(at 66.04 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 66.04 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "200ppm"
-			(at 66.04 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 66.04 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 55.88 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "656b3132-aa08-482c-9602-f58c3b325b8b")
-		)
-		(pin "2"
-			(uuid "12e12662-f7a1-4a23-b76e-f241d8a2be0f")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4842,72 +4645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 38.1 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "620ac1f9-833b-44d2-9eda-b88be9f99602")
-		(property "Reference" "#PWR038"
-			(at 38.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 38.1 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 38.1 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "404e5fae-b473-4f71-9ded-0af335c938ad")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 89.535 95.25 0)
 		(unit 1)
@@ -5101,73 +4838,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 45.72 172.085 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8157c7af-3699-45b9-94f2-b1fda1699311")
-		(property "Reference" "H3"
-			(at 48.26 169.5449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 48.26 172.0849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 45.72 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 45.72 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f0566ca-de89-4228-97e4-8a25a09c2ff8")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5372,73 +5042,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 38.1 172.085 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c2efe4a-1689-47e5-bb32-c59646fde55a")
-		(property "Reference" "H2"
-			(at 40.64 169.5449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 40.64 172.0849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 38.1 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 38.1 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a888fbac-c3fa-4f37-8e17-b8405a37e046")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Koszalix_Varistors:MCVZ0603M180AGT")
 		(at 86.995 100.965 0)
 		(unit 1)
@@ -5599,72 +5202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 53.34 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93ce913b-1950-43ff-8455-04b0d64f1a7e")
-		(property "Reference" "#PWR032"
-			(at 53.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 53.34 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 53.34 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a251b24-2896-44ce-8e00-b30b79550307")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 238.125 49.53 0)
 		(unit 1)
@@ -5726,72 +5263,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 45.72 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6ac51e6-2898-4ee9-b7ef-9fe7c1a0301b")
-		(property "Reference" "#PWR037"
-			(at 45.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 45.72 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12242ee5-c6ba-404e-ad06-4c5890b207a1")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5864,6 +5335,134 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 65.405 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b118871b-9cc2-470f-8b73-58a79721cf6b")
+		(property "Reference" "H7"
+			(at 67.945 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 67.945 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 65.405 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 65.405 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 65.405 175.895 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1cfe5fc-cac3-4bc3-bccc-5bca3713a864")
+		(property "Reference" "H6"
+			(at 67.945 174.6249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 67.945 177.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 65.405 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 65.405 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -6196,6 +5795,70 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 64.77 169.545 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c26e66bc-abac-46bf-b364-a7f663d8736e")
+		(property "Reference" "H5"
+			(at 67.31 168.2749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 67.31 170.8149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 64.77 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 64.77 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -6809,158 +6472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_4k7_0603")
-		(at 38.1 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d40d8dd3-3b48-4065-807d-725cbcb158d6")
-		(property "Reference" "R9"
-			(at 40.64 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 40.64 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 50.8 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 95.25 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor"
-			(at 38.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-070R"
-			(at 50.8 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Working Voltage " "50 V"
-			(at 50.8 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Overload Voltage" "100 V"
-			(at 50.8 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 50.8 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "200ppm"
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 50.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 40.64 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41b30445-ad58-473f-9c01-197d66d06ff2")
-		)
-		(pin "2"
-			(uuid "424d3976-4ae2-47bd-88e2-cd1c02b3e523")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Koszalix_PWR_Symbols:VREF2")
 		(at 189.865 50.8 0)
 		(unit 1)
@@ -7363,158 +6874,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_4k7_0603")
-		(at 45.72 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1aafbfb-9c47-4fca-b046-56820cf71684")
-		(property "Reference" "R10"
-			(at 48.26 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 48.26 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 58.42 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 102.87 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor"
-			(at 45.72 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 58.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-070R"
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Working Voltage " "50 V"
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Overload Voltage" "100 V"
-			(at 58.42 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 58.42 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "200ppm"
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 58.42 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 48.26 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa7983db-af08-44eb-868e-dd65d20080c8")
-		)
-		(pin "2"
-			(uuid "f458c82c-f522-43ca-97f1-ac85cd59e623")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "R10")
 					(unit 1)
 				)
 			)
