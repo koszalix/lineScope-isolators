@@ -547,6 +547,183 @@
 				)
 			)
 		)
+		(symbol "Koszalix_Capacitors_Ceramic_Walsin_0603:CAP_1u_X7R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1u"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/e45476bf270793f696988c4e93ce1237/ASC_General_Purpose.pdf"
+				(at 8.89 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Walsin"
+				(at 8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603B105K500CT"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 8.89 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Rated voltage" "50V"
+				(at 8.89 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Operating temperature" "-55°C to +125°C "
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitance characteristic" "±15%"
+				(at 8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_1u_X7R_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_1u_X7R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Koszalix_PWR_Symbols:VCC2"
 			(power)
 			(exclude_from_sim no)
@@ -2634,16 +2811,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 102.235) (xy 75.565 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d076177-cb27-495f-ac1d-8735110f4d9b")
-	)
-	(wire
-		(pts
 			(xy 62.865 45.085) (xy 62.865 40.64)
 		)
 		(stroke
@@ -2661,6 +2828,16 @@
 			(type default)
 		)
 		(uuid "8ea0f2f1-9d28-4c29-9c4b-d7a8f057f001")
+	)
+	(wire
+		(pts
+			(xy 75.565 102.235) (xy 81.915 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90207d42-bc19-4f2b-a0ea-4ef27349a660")
 	)
 	(wire
 		(pts
@@ -3594,43 +3771,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 71.755 102.235 90)
+		(lib_id "Koszalix_Capacitors_Ceramic_Walsin_0603:CAP_1u_X7R")
+		(at 71.12 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "313f6fb7-ac9b-458c-aa00-3aeee947e747")
-		(property "Reference" "R15"
-			(at 71.755 96.52 90)
+		(uuid "2e541e19-714b-4d5f-99d0-725bbe6132ac")
+		(property "Reference" "C24"
+			(at 71.12 22.225 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 71.755 99.06 90)
+		(property "Value" "1u"
+			(at 71.12 24.765 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 70.485 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 70.485 45.085 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.31 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,17 +3806,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Resistor"
-			(at 71.755 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 65.405 89.535 0)
+		(property "Datasheet" "https://www.tme.eu/Document/e45476bf270793f696988c4e93ce1237/ASC_General_Purpose.pdf"
+			(at 69.85 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,8 +3816,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-070R"
-			(at 67.945 89.535 0)
+		(property "Description" "SMD Capacitor"
+			(at 71.12 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 62.23 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,8 +3835,8 @@
 				(hide yes)
 			)
 		)
-		(property "Maximum Working Voltage " "50 V"
-			(at 78.105 89.535 0)
+		(property "MPN" "0603B105K500CT"
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,8 +3845,8 @@
 				(hide yes)
 			)
 		)
-		(property "Maximum Overload Voltage" "100 V"
-			(at 83.185 89.535 0)
+		(property "Tolerance" "10%"
+			(at 77.47 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,8 +3855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 80.645 89.535 0)
+		(property "Rated voltage" "50V"
+			(at 74.93 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,8 +3865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "200ppm"
-			(at 75.565 89.535 0)
+		(property "Operating temperature" "-55°C to +125°C "
+			(at 72.39 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,18 +3875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 73.025 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 75.565 99.695 0)
+		(property "Capacitance characteristic" "±15%"
+			(at 80.01 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,15 +3886,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a720cacc-9d81-4541-bab0-d2df51dba011")
+			(uuid "fc08d709-d37c-4b2b-bb4b-47bd29d2d764")
 		)
 		(pin "2"
-			(uuid "911d4b13-2039-4bf0-89e4-de5eda7682bf")
+			(uuid "1baedc90-be0b-47d9-991a-1915db40ee32")
 		)
 		(instances
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
-					(reference "R15")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3831,6 +3988,136 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
 					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_Capacitors_Ceramic_Walsin_0603:CAP_1u_X7R")
+		(at 71.755 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "349bf7b6-2d17-40f8-86f2-b142f6bc5a09")
+		(property "Reference" "C25"
+			(at 71.755 64.135 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 71.755 66.675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.945 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/e45476bf270793f696988c4e93ce1237/ASC_General_Purpose.pdf"
+			(at 70.485 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Capacitor"
+			(at 71.755 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 62.865 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603B105K500CT"
+			(at 65.405 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 78.105 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rated voltage" "50V"
+			(at 75.565 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Operating temperature" "-55°C to +125°C "
+			(at 73.025 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitance characteristic" "±15%"
+			(at 80.645 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2633b86-80cd-4924-8344-b72cddd09ee1")
+		)
+		(pin "2"
+			(uuid "bdfd89c8-cf01-4cc1-8c38-a95480fd3f50")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5858,6 +6145,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Koszalix_Capacitors_Ceramic_Walsin_0603:CAP_1u_X7R")
+		(at 71.755 102.235 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c287e8b-d620-4355-b7d7-0c57c267138c")
+		(property "Reference" "C26"
+			(at 71.755 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 71.755 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.945 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/e45476bf270793f696988c4e93ce1237/ASC_General_Purpose.pdf"
+			(at 70.485 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Capacitor"
+			(at 71.755 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 62.865 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603B105K500CT"
+			(at 65.405 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 78.105 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rated voltage" "50V"
+			(at 75.565 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Operating temperature" "-55°C to +125°C "
+			(at 73.025 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitance characteristic" "±15%"
+			(at 80.645 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68cfd027-ce03-4fbf-a078-0438d16f1900")
+		)
+		(pin "2"
+			(uuid "71dd4bf4-d9ca-45f0-b7a0-2245927c9726")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 32.385 45.085 0)
 		(unit 1)
@@ -5918,156 +6335,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 71.12 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86238b0d-12d1-4455-a100-7c49b972ae2f")
-		(property "Reference" "R11"
-			(at 71.12 23.495 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 71.12 26.035 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 69.85 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor"
-			(at 71.12 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 64.77 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-070R"
-			(at 67.31 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Working Voltage " "50 V"
-			(at 77.47 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Overload Voltage" "100 V"
-			(at 82.55 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 80.01 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "200ppm"
-			(at 74.93 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 72.39 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 74.93 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1761015-5d24-4542-9625-521ad946ef65")
-		)
-		(pin "2"
-			(uuid "d2651db2-654b-4568-90ac-9ad722a00e92")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7014,156 +7281,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
-		(at 71.755 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dec2b0c7-06d9-477a-a20e-d7dc3d6adc29")
-		(property "Reference" "R13"
-			(at 71.755 65.405 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 71.755 67.945 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 70.485 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
-			(at 70.485 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor"
-			(at 71.755 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 65.405 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-070R"
-			(at 67.945 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Working Voltage " "50 V"
-			(at 78.105 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maximum Overload Voltage" "100 V"
-			(at 83.185 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric Withstanding Voltage " "100 V"
-			(at 80.645 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "200ppm"
-			(at 75.565 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "–55 °C to +155 °C"
-			(at 73.025 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 75.565 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b39544f-73d3-4fe0-948d-83f05f27cce0")
-		)
-		(pin "2"
-			(uuid "2ae42497-41af-4fa6-b4d8-55ec2405dba7")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/e48c8b19-1eeb-4a2f-a9db-759934288041"
-					(reference "R13")
 					(unit 1)
 				)
 			)
