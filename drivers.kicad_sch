@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "571fba28-2253-4b12-8382-325500c5155a")
 	(paper "A4")
+	(title_block
+		(title "lineScope Isolators ")
+		(date "2024-05-26")
+		(rev "Rev 1.1.0")
+		(company "koszalix")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
 			(pin_names

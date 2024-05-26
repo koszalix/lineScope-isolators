@@ -5,10 +5,10 @@
 	(uuid "f1acbe9f-f1ca-484b-aba9-b8ceddcc7ff0")
 	(paper "A4")
 	(title_block
-		(title "lineScope Isolaors")
-		(date "2024-03-27")
-		(rev "1.0.0")
-		(company "Koszalix")
+		(title "lineScope Isolators ")
+		(date "2024-05-26")
+		(rev "Rev 1.1.0")
+		(company "koszalix")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -104,145 +104,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1003,6 +864,150 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Koszalix_Connectors_JST_XH:B2B-XH-A(LF)(SN)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 7.62 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B4B-XH-A(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/0a99312bb6c67d3f0f7869fe9a023cea/XH.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST XH Connector 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "B2B-XH-A(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B2B-XH-A(LF)(SN)_1_1"
+				(rectangle
+					(start 3.81 -2.413)
+					(end 5.08 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 5.08 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 1.27)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -2738,7 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 111.125) (xy 51.435 111.125)
+			(xy 46.355 111.125) (xy 51.435 111.125)
 		)
 		(stroke
 			(width 0)
@@ -2858,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.665) (xy 51.435 113.665)
+			(xy 46.355 113.665) (xy 51.435 113.665)
 		)
 		(stroke
 			(width 0)
@@ -2878,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 55.245) (xy 39.37 55.245)
+			(xy 32.385 55.245) (xy 39.37 55.245)
 		)
 		(stroke
 			(width 0)
@@ -3078,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 57.785) (xy 38.1 57.785)
+			(xy 32.385 57.785) (xy 38.1 57.785)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 40.005) (xy 38.1 40.005)
+			(xy 32.385 40.005) (xy 38.1 40.005)
 		)
 		(stroke
 			(width 0)
@@ -3508,7 +3513,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 37.465) (xy 40.005 37.465)
+			(xy 32.385 37.465) (xy 40.005 37.465)
 		)
 		(stroke
 			(width 0)
@@ -3685,6 +3690,36 @@
 			)
 		)
 		(uuid "055a2687-2f32-4892-80db-7d7f7691b32f")
+	)
+	(text "AC OUT"
+		(exclude_from_sim no)
+		(at 24.638 38.862 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1decd27e-22eb-433b-87a2-9a9d0447cf57")
+	)
+	(text "AC IN"
+		(exclude_from_sim no)
+		(at 24.638 56.642 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c90f8c9-041c-4cd3-97ba-791996388995")
+	)
+	(text "AC IN"
+		(exclude_from_sim no)
+		(at 38.608 112.776 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80ccc7e8-107a-4bd6-aa54-73ea942445a9")
 	)
 	(text "GRID SIDE"
 		(exclude_from_sim no)
@@ -4518,73 +4553,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.115 57.785 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22002842-8b49-407f-b0f9-8437de1c8e9b")
-		(property "Reference" "J1"
-			(at 31.115 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 31.115 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 31.115 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.115 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.115 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f91a8160-7f53-4af5-9164-1f2c3b1300f1")
-		)
-		(pin "2"
-			(uuid "32bc91fa-7763-4baf-b029-36ca3fe0d121")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5642,6 +5610,97 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_Connectors_JST_XH:B2B-XH-A(LF)(SN)")
+		(at 46.355 113.665 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "770eaeff-d383-405a-a505-c98bca0e54ac")
+		(property "Reference" "J2"
+			(at 41.275 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B4B-XH-A(LF)(SN)"
+			(at 46.355 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 46.355 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0a99312bb6c67d3f0f7869fe9a023cea/XH.pdf"
+			(at 46.355 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH Connector 2 pins"
+			(at 46.355 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 41.275 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 46.355 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "289b6b11-7bc5-48cc-99d3-80edfd960f6e")
+		)
+		(pin "1"
+			(uuid "7fc35eb4-e753-45e0-af70-1ffffa61d700")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7564,73 +7623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.115 40.005 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d272c006-a56f-43ac-aab7-93f646fd88d4")
-		(property "Reference" "J6"
-			(at 31.115 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 31.115 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 31.115 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.115 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.115 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03c46d9b-4a5c-48e9-a053-1222d84643dc")
-		)
-		(pin "2"
-			(uuid "a19b2564-c6fd-4295-a67b-d1bf089e072b")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Koszalix_Varistors:MCVZ0603M180AGT")
 		(at 62.865 107.315 0)
 		(unit 1)
@@ -7851,6 +7843,97 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_Connectors_JST_XH:B2B-XH-A(LF)(SN)")
+		(at 32.385 57.785 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7a39946-2960-4bc3-bc1f-35fab8cfdbb1")
+		(property "Reference" "J1"
+			(at 27.305 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B4B-XH-A(LF)(SN)"
+			(at 32.385 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 32.385 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0a99312bb6c67d3f0f7869fe9a023cea/XH.pdf"
+			(at 32.385 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH Connector 2 pins"
+			(at 32.385 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 27.305 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 32.385 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "016612b3-f933-413d-b2f0-588b2a1ac45a")
+		)
+		(pin "1"
+			(uuid "ac6cc60d-99fc-4835-aed6-48e001c19d23")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8126,73 +8209,6 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 44.45 113.665 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e60fe5d2-003c-47db-8119-a89444e8ba08")
-		(property "Reference" "J2"
-			(at 44.45 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 44.45 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 44.45 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e790cf6d-5c53-4d36-93f0-858b8e1d2a09")
-		)
-		(pin "2"
-			(uuid "710bec69-b0a2-4cf5-a539-6ff204514ec7")
-		)
-		(instances
-			(project "lineScope"
-				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8933,6 +8949,97 @@
 			(project "lineScope"
 				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_Connectors_JST_XH:B2B-XH-A(LF)(SN)")
+		(at 32.385 40.005 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fddbb105-dcc9-4591-97ad-4c09b0fa3bd8")
+		(property "Reference" "J6"
+			(at 27.305 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B4B-XH-A(LF)(SN)"
+			(at 32.385 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 32.385 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0a99312bb6c67d3f0f7869fe9a023cea/XH.pdf"
+			(at 32.385 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH Connector 2 pins"
+			(at 32.385 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 27.305 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 32.385 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04ff0428-a48d-484a-833c-26e41f1550ba")
+		)
+		(pin "1"
+			(uuid "ee3ca3d0-755f-4c43-b9e7-cba043945a75")
+		)
+		(instances
+			(project "lineScope"
+				(path "/d77300f0-a82f-4cf4-a361-683d61137a17/1a764951-95b6-4a45-9cef-5c8073729572"
+					(reference "J6")
 					(unit 1)
 				)
 			)

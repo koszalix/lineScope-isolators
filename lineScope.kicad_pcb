@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "lineScope Isolators")
-		(date "2024-03-27")
-		(rev "1.0.0")
+		(date "2024-05-26")
+		(rev "1.1.0")
 		(company "Koszalix")
 	)
 	(layers
@@ -30107,7 +30107,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "lineScope Isolators\nRev 1.0.0 03/2024"
+	(gr_text "lineScope Isolators\nRev 1.1.0 03/2024"
 		(at 109.2 87.7 0)
 		(layer "F.SilkS")
 		(uuid "c35bd8f3-e120-4955-9f3c-f6d661d0523e")

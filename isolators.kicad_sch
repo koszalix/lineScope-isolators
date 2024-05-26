@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "5a346156-8be7-4bbf-bc72-a57d5bd05cab")
 	(paper "A4")
+	(title_block
+		(title "lineScope Isolators ")
+		(date "2024-05-26")
+		(rev "Rev 1.1.0")
+		(company "koszalix")
+	)
 	(lib_symbols
 		(symbol "ADuM3190_1"
 			(exclude_from_sim no)
